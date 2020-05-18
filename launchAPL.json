@@ -1,0 +1,52 @@
+
+{
+  "type": "APL",
+  "version": "1.1",
+  "description": "Display the launch Screen",
+  "settings": {},
+  "theme": "dark",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.1.0"
+    }
+  ],
+  "resources": [],
+  "styles": {},
+  "onMount": [],
+  "graphics": {},
+  "commands": {},
+  "layouts": {},
+  "mainTemplate": {
+    "parameters": [
+        "payload"
+      ],
+      
+      "items": [
+        {
+          "type": "Container",
+  "width": "100vw",
+  "height": "100vh",
+  "justifyContent": "center",
+  "alignItems": "center",
+  "items": [
+    {
+      "type": "AlexaBackground",
+      "backgroundImageSource": "IMAGE LINK",
+      "backgroundScale":"fill",
+      "backgroundBlur":true,
+      "coverOverlay": true
+    },
+    {
+      "width": "70vw",
+  "height": "70vh",
+    "type": "Text",
+    "color": "#b30000",
+    "text": "${payload.myDocumentData.title}"
+    }
+    ]
+    }
+      ]
+  }
+}
+
