@@ -9,3 +9,8 @@ The skills has been used by almost 1000 people in Italy, with more than 30 revie
 
 I managed to port the skill on the google assistant as a 'Google Action' with new jokes and now translated in English, making it available worldwide.
 It got 1400 users in less than 2 weeks making me earn a free Google Home thanks to a Google promotion.
+
+# Update 18/5/20
+
+I ported the skill to the ASK SDK v2, with support for APL and different display sizes on Alexa devices.
+I also made the skill available in english and I published it worldwide.
